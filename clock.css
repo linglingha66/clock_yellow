@@ -1,0 +1,87 @@
+html,body{
+			margin: 0;
+			padding: 0;
+		}
+h1{
+	font-family: "Microsoft Yahei";
+	text-align: center;
+	color:#ecf73f;
+	-webkit-text-shadow: 3px 3px 3px #d8e323;
+	text-shadow: 3px 3px 3px #d8e323;
+}
+#clock{
+		position: relative;
+		width: 300px;
+		height: 300px;
+		margin: 0 auto;
+		border: 10px solid #996cdb;
+		-webkit-border-radius: 4px;
+		border-radius: 4px;
+	   	top:30px;
+	}
+#clock span{
+	display: block;
+	font: bold 36px "Arial";
+	color:purple;
+}
+.num_wrap{
+	width: 300px;
+	height: 300px;
+	background-color: #ccc;
+}
+.num1,.num3{
+	position: absolute;
+	width: 300px;
+	text-align: center;
+}
+.num1{
+	top:6px;
+}
+.num3{
+	bottom:6px;
+}
+.num2,.num4{
+	position: absolute;
+	top:132px;
+}
+.num2{
+	right:6px;
+}
+.num4{
+	left:6px;
+}
+.circle{
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	top:143px;
+	left:141px;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	background-color:#750dab;
+	z-index: 2;
+}
+.p{
+	position: absolute;
+	left: 150px;
+	-webkit-transform-origin: left center;
+	transform-origin: left center;/*将旋转原点设置在圆心*/
+    }
+.hour{
+	width: 70px;
+	height: 14px;
+	background-color:#e9f43a;
+	top: 141px;
+    }
+.minute{
+	width: 90px;
+	height: 10px;
+	background-color: orange;
+	top: 144px;
+	}
+.second{
+	width: 110px;
+	height: 6px;
+	background-color: #fc496b;
+	top: 147px;
+}
